@@ -175,7 +175,6 @@ const touchend = (e) => {
 
 // 处理合并(index: 第几列，idx: 和第几张比较,v: 新来的值, firstFlag: 第一次合并)
 const merge = (index, idx, v, firstFlag) => {
-    console.log(index, idx, v);
     const cards = list.value[index].cards;
     if (idx < 0) {
         return;
